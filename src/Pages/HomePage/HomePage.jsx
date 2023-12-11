@@ -1,11 +1,18 @@
 import About from "./About/About";
+import Services from "./Services/Services.local";
+import Skills from "./Skills/Skills";
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="text-6xl text-center">This is home</h1>
+      <div className="bg-sky-100 my-3 py-10 mb-10 ">
+      
       <About></About>
+      <Skills></Skills>
     </div>
+    <Services></Services>
+    </div>
+
   );
 };
 
