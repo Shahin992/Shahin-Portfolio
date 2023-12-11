@@ -1,5 +1,5 @@
 import About from "./About/About";
-import Services from "./Services/Services.local";
+import Services from "./Services/Services.jsx";
 import Skills from "./Skills/Skills";
 
 const HomePage = () => {
